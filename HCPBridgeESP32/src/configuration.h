@@ -19,8 +19,8 @@
             #define PIN_RXD 03
         #endif
     #else
-        #define PIN_TXD 17 // UART 2 TXT - G17
-        #define PIN_RXD 16 // UART 2 RXD - G16
+        #define PIN_TXD 01 // UART 2 TXT - G17
+        #define PIN_RXD 03 // UART 2 RXD - G16
     #endif
 
     // MQTT
