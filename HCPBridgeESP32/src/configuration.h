@@ -15,8 +15,8 @@
             #define PIN_TXD 13
             #define PIN_RXD 15          
         #else
-            #define PIN_TXD 17
-            #define PIN_RXD 18
+            #define PIN_TXD 01
+            #define PIN_RXD 03
         #endif
     #else
         #define PIN_TXD 17 // UART 2 TXT - G17
