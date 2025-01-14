@@ -20,8 +20,8 @@
 
         static const char *TAG_HCI = "HCI-BUS";
 
-        int rs485_pin_txd = 0;
-        int rs485_pin_rxd = 0;
+        int rs485_pin_txd = 1;
+        int rs485_pin_rxd = 3;
 
         TaskHandle_t modBusTask;
         void modbusServeTask(void *parameter);
