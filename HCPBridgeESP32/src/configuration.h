@@ -12,8 +12,8 @@
     //RS485 pins
     #ifdef CONFIG_IDF_TARGET_ESP32S3
         #ifdef M5STACK
-            #define PIN_TXD 13
-            #define PIN_RXD 15          
+            #define PIN_TXD 01
+            #define PIN_RXD 03          
         #else
             #define PIN_TXD 01
             #define PIN_RXD 03
