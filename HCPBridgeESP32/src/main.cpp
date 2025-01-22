@@ -949,7 +949,7 @@ const char* generateUniqueID() {
 void setup()
 {
   // Serial
-  Serial.begin(9600);
+  Serial1.begin(9600);
 
 /*
   while (Serial.available()==0){
